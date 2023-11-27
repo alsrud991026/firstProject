@@ -1,0 +1,56 @@
+html {
+    font-size: 62.5%; /*font size를 10px로 설정하면 브라우저에서 제공하는 사용자 접근성 옵션이 적용되지 않는다.*/
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+#txt_welcome {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#card_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    margin: 1rem;
+}
+
+.card_title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card_img {
+    width: 36rem;
+    height: auto;
+}
+
+.card_button {
+    text-align: center;
+    font-size: 1.5rem;
+    color: cornflowerblue;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    border: 0.1rem solid cornflowerblue;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.7);
+}
+
+.card_button:hover {
+    color: white;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
